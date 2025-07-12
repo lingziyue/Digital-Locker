@@ -11,10 +11,12 @@
 
 - 🔐 **安全可靠** - 6位数字取件码，文件自动过期
 - 📁 **无大小限制** - 支持任意大小文件上传
-- 🎨 **政务风格UI** - 简洁专业的界面设计
+- 🎨 **简洁风格UI** - 简洁专业的界面设计
 - 🌐 **跨平台部署** - 支持Windows、Linux、macOS
 - 📱 **响应式设计** - 完美适配桌面和移动设备
 - ⚡ **高性能** - 基于Next.js 15和TypeScript构建
+<img width="1920" height="911" alt="image" src="https://github.com/user-attachments/assets/e14e1f51-254d-41f7-924e-29312d227107" />
+<img width="1920" height="911" alt="image" src="https://github.com/user-attachments/assets/ec0ee096-cb91-47d5-9ca9-933f6e89642b" />
 
 ## 🚀 快速开始
 
@@ -156,13 +158,6 @@ deploy.bat
 - [Next.js](https://nextjs.org/) - React 全栈框架
 - [Prisma](https://prisma.io/) - 现代数据库工具包
 - [Tailwind CSS](https://tailwindcss.com/) - CSS 框架
-
-## 📞 联系方式
-
-如有问题或建议，请通过以下方式联系：
-
-- 提交 [Issue](https://github.com/your-username/digital-locker/issues)
-- 发送邮件至 your-email@example.com
 
 ---
 
