@@ -1,6 +1,6 @@
 # 数字文件柜 (Digital Locker)
 
-一个安全、便捷的文件分享系统，采用政务风格的简洁界面设计。用户可以上传文件获取取件码，其他人通过取件码下载文件。
+一个安全、便捷的文件分享系统，采用简约风格的简洁界面设计。用户可以上传文件获取取件码，其他人通过取件码下载文件。
 
 ![Digital Locker](https://img.shields.io/badge/Next.js-15.3.5-black?style=flat-square&logo=next.js)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue?style=flat-square&logo=typescript)
