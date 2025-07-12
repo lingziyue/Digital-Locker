@@ -1,0 +1,28 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+  binaryTargets = ["native", "debian-openssl-1.1.x", "debian-openssl-3.0.x", "linux-musl", "windows", "darwin", "darwin-arm64"]
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model FileShare {
+  id          String   @id @default(cuid())
+  pickupCode  String   @unique
+  fileName    String
+  originalName String
+  filePath    String
+  fileSize    Int
+  mimeType    String
+  createdAt   DateTime @default(now())
+  expiresAt   DateTime
+  downloaded  Boolean  @default(false)
+  downloadedAt DateTime?
+
+  @@map("file_shares")
+}
